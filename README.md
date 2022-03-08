@@ -1,11 +1,11 @@
 # URL health check action
 
-A cURL-based post-deploy health check with build-in redirect & retry. An quick & easy way to verify a deployment.   
+A cURL-based post-deploy health check with build-in redirect & retry. A quick & easy way to verify a deployment.   
 
 ```yaml
 steps:
   - name: Check the deployed service URL
-    uses: jtalk/url-health-check-action@v2
+    uses: KrogerWalt/url-health-check-action@main
     with:
       # Check the following URLs one by one sequentially
       url: https://example.com|http://example.com
